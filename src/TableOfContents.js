@@ -12,6 +12,7 @@ const TableOfContents = () => {
             id: header.id || header.innerText.toLowerCase().replace(/\s+/g, '-'),
             text: header.innerText,
         }));
+        // comment
 
         // Add an id to each <h4> if it doesn't already have one
         headerElements.forEach((header, index) => {

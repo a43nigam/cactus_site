@@ -44,6 +44,7 @@ const ResumePage = () => {
 
             <main>
                 <section className="mb-12">
+                    {/*comment*/}
 
                     <h4>Education</h4>
                     <p2>Cornell University - B.S. in Applied & Engineering Physics (Current)</p2>

@@ -5,6 +5,7 @@ const AboutPage = () => {
     const [darkMode, setDarkMode] = useState(() => {
         const savedMode = localStorage.getItem('dark-mode');
         return savedMode === 'enabled' || false;
+        // comment
     });
 
     useEffect(() => {
